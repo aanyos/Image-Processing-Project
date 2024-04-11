@@ -3,7 +3,7 @@ import cv2
 import numpy as np
 from flask import Flask, flash, request, redirect, url_for, render_template
 from werkzeug.utils import secure_filename
-from PIL import Image
+import Image
 
 app = Flask(__name__)
 
